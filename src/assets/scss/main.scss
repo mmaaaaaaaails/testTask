@@ -1,0 +1,206 @@
+
+@import 'fonts';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #eff0f2;
+}
+
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.logo {
+    padding-top: 63px;
+}
+
+.contact {
+    background: #eff0f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    &_title {
+        text-transform: uppercase;
+        color: #505050;
+        font-size: 45px;
+        letter-spacing: 3px;
+        line-height: 70px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+        filter: drop-shadow(3.517px 8.285px 5px rgba(0,0,0,0.24))
+    }
+
+    &--bg {
+        background: #a5e1dd;
+        padding: 5px 10px;
+    }
+
+    &_btn {
+        width: 232px;
+        height: 53px;
+        border-radius: 2px;
+        background: #eff0f2;
+        border: 2px solid #000000;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 28px;
+        color: #000000;
+        font-family: "Montserrat";
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 140px;
+        cursor: pointer;
+        outline: none;
+        background-image: linear-gradient(to left,transparent,transparent 50%, #a5e1dd 50%, #a5e1dd);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all .25s ease-in;
+    }
+
+    &_btn:hover {
+        background-position: 0 0;
+        color:#fff;
+    }
+
+    &_image {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+
+        &--glass {
+            position: absolute;
+            bottom: 20px;
+            filter: hue-rotate(137deg) saturate(66%);
+        }
+
+        &--cork {
+            border-radius: 7px;
+        }
+    }
+}
+
+.about {
+    background: #f8fafa;
+    height: 150vh;
+
+    &_title {
+        font-size: 38px;
+        letter-spacing: 2px;
+        line-height: 28px;
+        color: #000000;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    &_subtitle {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        color: #000000;
+        font-family: "Merriweather";
+        font-weight: 400;
+        text-align: center;
+        padding-top: 20px;
+        text-transform: uppercase;
+        padding-bottom: 147px;
+    }
+
+    &_work {
+        display: flex;
+        justify-content: space-between;
+
+        &--table {
+            filter: drop-shadow(0 0 15px rgba(20,20,21,0.13));
+        }
+
+        &--text {
+            max-width: 475px;
+        }
+    }
+
+}
+
+.work {
+    &_title {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: "Merriweather";
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 30px
+    }
+
+    &_description {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        font-family: "Raleway";
+        font-weight: 400;
+        text-align: justify;
+        letter-spacing: 0.7px;
+
+        &--text {
+            display: block;
+            padding-bottom: 43px;
+            padding-top: 43px;
+        }
+    }
+
+    &_block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &_picture {
+        width: 32.5%;
+        margin-bottom: 13px;
+        cursor: pointer;
+    }
+}
+
+.team {
+    background: #f8fafa;
+
+    &_block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &_person {
+        width: 32.5%;
+        margin-bottom: 13px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+
+        &_person::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+            background: red;
+            border-radius: 50%;
+            display: block;
+        }
+    }
+}
