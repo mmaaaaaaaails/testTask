@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 40" width="46" height="40">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.4;fill: #8a8a8a } 
+		.txt1 { font-size: 20px;line-height: 42px;fill: #faf4f4;font-family: "Font Awesome" } 
+	</style>
+	<g id="Twiter copy" style="opacity: 0.702">
+		<path id="Rectangle 36 copy 3" class="shp0" d="M0.37 0L45.62 0L45.62 40L0.37 40L0.37 0Z" />
+		<text id="" style="transform: matrix(1.16,0,0,1.176,12.432,28.129)" >
+			<tspan x="0" y="0" class="txt1" dx="0" ></tspan>
+		</text>
+	</g>
+</svg>

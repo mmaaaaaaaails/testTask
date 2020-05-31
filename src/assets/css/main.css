@@ -1,0 +1,133 @@
+/* .team {
+    background: #f9fbfb;
+    padding-bottom: 160px;
+    min-height: 1180px;
+    box-sizing: border-box;
+}
+
+.team_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.person_photo {
+    width: 100%;
+    margin-bottom: 13px;
+    cursor: pointer;
+    display: flex;
+
+} */
+
+/* .person {
+    width: 32.5%;
+    position: relative;
+} */
+
+/* .person_description {
+    position: absolute;
+    left: 4%;
+    bottom: 6%;
+    width: 74%;
+    height: 50%;
+    background: #6ff6eb;
+    padding: 2% 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.person_description::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 20px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #6ff6eb;
+} */
+
+/* .person_name {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #272727;
+    font-family: "Merriweather";
+    font-weight: 700;
+    text-align: center
+}
+
+.person_name--career {
+    font-size: 15px;
+    font-family: "Merriweather";
+    font-weight: 700;
+    color: #749693;
+}
+
+.person_text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 400;
+} */
+
+
+/* .socials{
+    display: flex;
+    list-style: none;
+} */
+
+/* .social_icon {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 10px;
+} */
+
+
+/* .icon {
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    filter: invert(50%) sepia(50%) saturate(2500%) hue-rotate(525deg) brightness(100%) contrast(100%);
+}
+
+
+.social_icon--facebook {
+    background-image: url(/assets/img/facebook.svg);
+} */
+
+/* .social_icon--twitter {
+    background-image: url(/assets/img/twitter.svg);
+}
+
+.social_icon--pinterest {
+    background-image: url(/assets/img/pinterest.svg);
+}
+
+.social_icon--message  {
+    background-image: url(/assets/img/message.svg);
+}
+
+.social_icon--ball {
+    background-image: url(/assets/img/ball.svg);
+} */
+
+/* .social_icon--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 44px;
+    height: 40px;
+    background: #424648;
+}
+
+.social_icon--footer:hover {
+    background: #6eeee4;
+    transition: .5s linear;
+} */
