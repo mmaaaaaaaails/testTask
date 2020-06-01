@@ -6,13 +6,11 @@ import './js/common';
 const modal = document.querySelector('.modal');
 const workPicture = document.querySelectorAll('.work_picture');
 const modalContent = document.querySelector('.modal_content');
-const caption = document.querySelector('.modal_caption');
 
 workPicture.forEach((el) => {
   el.addEventListener('click', (e) => {
     modal.style.display = 'block';
     modalContent.setAttribute('src', e.target.src);
-    caption.innerHTML = 'pic1';
   });
 });
 
