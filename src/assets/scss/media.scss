@@ -1,0 +1,260 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .form {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .subtitle {
+        padding-bottom: 50px;
+    }
+
+    .about {
+        padding-bottom: 70px;
+
+        &_work--table {
+            width: 100%;
+        }
+
+        &_work--text {
+            width: 100%;
+            margin-top: 35px;
+        }
+    }
+
+    .person {
+
+        &_name {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        &_text {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+
+    .team {
+        padding-bottom: 0;
+    }
+
+    .contact_content {
+        justify-content: center;
+    }
+
+    .modal_content {
+        width: 50%;
+    }
+
+    .form {
+        margin-bottom: 15px;
+        width: 100%;
+
+        &_submit {
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .info {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shopno {
+
+        &_btn {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        &_image {
+            justify-content: center;
+        }
+    }
+
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .subtitle {
+        padding-bottom: 50px;
+    }
+
+    .about {
+        padding-bottom: 40px;
+
+        &_work--table {
+            width: 100%;
+        }
+
+        &_work--text {
+            margin-top: 35px;
+            width: 100%;
+        }
+    }
+
+    .work {
+
+        &_picture {
+            width: 48.5%;
+        }
+
+        &_block {
+            margin-bottom: 0;
+        }
+    }
+
+    .team {
+        padding-bottom: 0;
+    }
+
+    .contact {
+        padding-top: 60px;
+    }
+
+    .person {
+        width: 48.5%;
+
+        &_name {
+            font-size: 16px;
+            line-height: 16px;
+        }
+
+        &_text {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    .form {
+        margin-bottom: 15px;
+        width: 100%;
+
+        &_submit {
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .info {
+        width:100%;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shopno {
+
+        &_title {
+            font-size: 35px;
+        }
+
+        &_btn {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        &_image {
+            justify-content: center;
+        }
+    }
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .subtitle {
+        padding-bottom: 50px;
+    }
+
+    .about {
+        padding-bottom: 40px;
+
+        &_work--table {
+            width: 100%;
+        }
+
+        &_work--text {
+            margin-top: 35px;
+            width: 100%;
+        }
+    }
+
+    .work {
+
+        &_picture {
+            width: 100%;
+        }
+
+        &_block {
+            margin-bottom: 0;
+        }
+    }
+
+    .team {
+        padding-bottom: 0;
+    }
+
+    .contact {
+        padding-top: 60px;
+    }
+
+    .person {
+        width: 100%;
+
+        &_name {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        &_text {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .form {
+        margin-bottom: 15px;
+        width: 100%;
+
+        &_submit {
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .info {
+        width:100%;
+
+        &_item {
+            font-size: 16px;
+        }
+    }
+}
